@@ -22,11 +22,6 @@ const ExpenseForm = ({ onCancel, onSubmit, submitButtonLabel, defaultValues }) =
   };
   
   const submitHandler = () => {
-    console.log(inputValues)
-    console.log(inputValues.amount);
-    console.log(typeof inputValues.amount);
-    console.log(Number(inputValues.amount));
-    console.log(typeof Number(inputValues.amount));
     const expenseData = {
       amount: Number(inputValues.amount),
       date: new Date(inputValues.date),
