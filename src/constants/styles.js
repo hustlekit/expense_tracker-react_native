@@ -10,7 +10,7 @@ export const GlobalStyles = {
     darkOliveGreen: '#656d4a',
     rifleGreen: '#414833',
     kombuGreen: '#333d29',
-    error50: '#fcc4e4',
+    error50: '#9e6161',
     error500: '#933948',
     grey500: '#39324a',
     grey700: '#221c30',
