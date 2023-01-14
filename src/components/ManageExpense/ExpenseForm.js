@@ -39,7 +39,7 @@ const ExpenseForm = ({ onCancel, onSubmit, submitButtonLabel, defaultValues }) =
     
     const amountIsValid = !isNaN(expenseData.amount) && expenseData.amount > 0;
     const dateIsValid = expenseData.date.toString() !== 'Invalid Date';
-    const descriptionIsValid = expenseData.description.trim() > 0;
+    const descriptionIsValid = expenseData.description.trim().length > 0;
     
     if ( !amountIsValid || !dateIsValid || !descriptionIsValid ) {
       setInputs(currInputs => {
